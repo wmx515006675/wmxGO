@@ -15,6 +15,8 @@
 		912D276A1C48BA7A00EC4418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912D27681C48BA7A00EC4418 /* LaunchScreen.storyboard */; };
 		912D27751C48BA7A00EC4418 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912D27741C48BA7A00EC4418 /* ___________Tests.m */; };
 		912D27801C48BA7A00EC4418 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912D277F1C48BA7A00EC4418 /* ___________UITests.m */; };
+		912D278E1C48BB7B00EC4418 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912D278D1C48BB7B00EC4418 /* MediaPlayer.framework */; };
+		912D27911C48BBD600EC4418 /* wmx_GesturesClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 912D27901C48BBD600EC4418 /* wmx_GesturesClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		912D277B1C48BA7A00EC4418 /* 仿直播 音量 亮度调节UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿直播 音量 亮度调节UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		912D277F1C48BA7A00EC4418 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
 		912D27811C48BA7A00EC4418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912D278D1C48BB7B00EC4418 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		912D278F1C48BBD600EC4418 /* wmx_GesturesClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wmx_GesturesClass.h; sourceTree = "<group>"; };
+		912D27901C48BBD600EC4418 /* wmx_GesturesClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wmx_GesturesClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912D278E1C48BB7B00EC4418 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		912D274E1C48BA7A00EC4418 = {
 			isa = PBXGroup;
 			children = (
+				912D278D1C48BB7B00EC4418 /* MediaPlayer.framework */,
 				912D27591C48BA7A00EC4418 /* 仿直播 音量 亮度调节 */,
 				912D27731C48BA7A00EC4418 /* 仿直播 音量 亮度调节Tests */,
 				912D277E1C48BA7A00EC4418 /* 仿直播 音量 亮度调节UITests */,
@@ -105,6 +112,8 @@
 				912D275E1C48BA7A00EC4418 /* AppDelegate.m */,
 				912D27601C48BA7A00EC4418 /* ViewController.h */,
 				912D27611C48BA7A00EC4418 /* ViewController.m */,
+				912D278F1C48BBD600EC4418 /* wmx_GesturesClass.h */,
+				912D27901C48BBD600EC4418 /* wmx_GesturesClass.m */,
 				912D27631C48BA7A00EC4418 /* Main.storyboard */,
 				912D27661C48BA7A00EC4418 /* Assets.xcassets */,
 				912D27681C48BA7A00EC4418 /* LaunchScreen.storyboard */,
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				912D27621C48BA7A00EC4418 /* ViewController.m in Sources */,
+				912D27911C48BBD600EC4418 /* wmx_GesturesClass.m in Sources */,
 				912D275F1C48BA7A00EC4418 /* AppDelegate.m in Sources */,
 				912D275C1C48BA7A00EC4418 /* main.m in Sources */,
 			);

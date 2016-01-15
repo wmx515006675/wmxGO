@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "wmx_GesturesClass.h"
+
 
 @interface ViewController ()
 
@@ -17,11 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    wmx_GesturesClass *wmx = [[wmx_GesturesClass alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:wmx];
+    wmx.backgroundColor = [UIColor cyanColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
 
 @end
